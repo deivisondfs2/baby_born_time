@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Baby Born Time</string>
+    <string name="label_dum">Date last menstruation</string>
+    <string name="label_dcw">Desired date to calculate weeks</string>
+    <string name="btn_dpp">Calculate Pregnancy</string>
+    <string name="field_required"> Field required</string>
+    <string name="title_activity_splash">Loading...</string>
+    <string name="reset">reset</string>
+    <string name="title_congratulations">Congratulations</string>
+    <string name="button_ok">Ok</string>
+    <string name="mensage_result_dialog">Hello <u>mother</u>, I would like to inform your baby will probably be born in: <b>%1$s</b>\n \nMom, you are <b>%2$s</b> and <b>%3$s</b>.</string>
+
+    <plurals name="numOfWeeks">
+        <item quantity="zero"></item>
+        <item quantity="one">%d week</item>
+        <item quantity="other">%d weeks</item>
+    </plurals>
+
+    <plurals name="numOfDays">
+        <item quantity="zero"></item>
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+</resources>

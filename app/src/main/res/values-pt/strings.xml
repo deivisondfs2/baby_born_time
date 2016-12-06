@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bebê a Bordo</string>
+    <string name="label_dum">Data da última menstruação</string>
+    <string name="label_dcw">Data atual para cálcular semanas</string>
+    <string name="btn_dpp">Calcular Gestacão</string>
+    <string name="field_required"> Campo obrigatório</string>
+    <string name="reset">Limpar</string>
+    <string name="title_activity_splash">Carregando...</string>
+    <string name="title_congratulations">Parabéns</string>
+    <string name="button_ok">Ok</string>
+    <string name="mensage_result_dialog">Olá <u>mãe</u>, gostaria de informar que provavelmente seu bebê irá nascer em: <b>%1$s</b>\n \nMãe, você está com <b>%2$s</b> e <b>%3$s</b>.</string>
+
+    <plurals name="numOfWeeks">
+        <item quantity="zero"></item>
+        <item quantity="one">%d semana</item>
+        <item quantity="other">%d semanas</item>
+    </plurals>
+
+    <plurals name="numOfDays">
+        <item quantity="zero"></item>
+        <item quantity="one">%d dia</item>
+        <item quantity="other">%d dias</item>
+    </plurals>
+
+</resources>
