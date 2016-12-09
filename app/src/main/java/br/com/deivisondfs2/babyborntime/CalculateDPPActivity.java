@@ -4,6 +4,7 @@ import android.app.DialogFragment;
 import android.os.Bundle;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.text.InputType;
 import android.text.SpannableStringBuilder;
 import android.text.TextUtils;
@@ -46,6 +47,9 @@ public class CalculateDPPActivity extends AppCompatActivity {
     @Bind(R.id.editDateNow)
     EditText dateEditNow;
 
+
+
+
     TextInputLayout textInputLayout;
 
     @Override
@@ -53,9 +57,11 @@ public class CalculateDPPActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculatedpp);
         ButterKnife.bind(this);
+
     }
 
-    @OnFocusChange(R.id.editText) void onFocusChanged(boolean hasFocus) {
+    @OnFocusChange(R.id.editText)
+    void onFocusChanged(boolean hasFocus) {
         if (hasFocus) {
             hideSoftKeyboard();
             dateEdit.setInputType(InputType.TYPE_NULL);
@@ -64,7 +70,8 @@ public class CalculateDPPActivity extends AppCompatActivity {
         }
     }
 
-    @OnFocusChange(R.id.editDateNow) void onFocusChanged2(boolean hasFocus) {
+    @OnFocusChange(R.id.editDateNow)
+    void onFocusChanged2(boolean hasFocus) {
         if (hasFocus) {
             hideSoftKeyboard();
             dateEditNow.setInputType(InputType.TYPE_NULL);

@@ -33,7 +33,7 @@ public class SplashActivity extends AppCompatActivity implements Runnable {
 
     @Override
     public void run() {
-        Intent intent = new Intent(this, CalculateDPPActivity.class);
+        Intent intent = new Intent(this, TabsActivity.class);
         startActivity(intent);
 
         finish();

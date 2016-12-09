@@ -9,6 +9,7 @@
     <string name="title_congratulations">Congratulations</string>
     <string name="button_ok">Ok</string>
     <string name="mensage_result_dialog">Hello <u>mother</u>, I would like to inform your baby will probably be born in: <b>%1$s</b>\n \nMom, you are <b>%2$s</b> and <b>%3$s</b>.</string>
+    <string name="tab1">home</string>
 
     <plurals name="numOfWeeks">
         <item quantity="zero"></item>
